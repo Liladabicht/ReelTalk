@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Varela+Round&family=Wendy+One&display=swap');
+
+.logo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 5%;
+    }
+    
+body {
+    background-color: #e9e3d3;
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0%;
+}
+
+
+.topnav {
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 2%;
+    background-color: #cf5d1e;
+    text-decoration: none;
+}
+
+.topnav a.active {
+    background-color: #e9e3d3;
+}
+
+.topnav a {
+    color: black;
+    padding: 3.3%;
+    margin-top: 3%;
+   text-decoration: none;
+   font-size: 30px;
+}
+
+.Reeltalk {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 1%;
+    padding-bottom: 0;
+    margin-top: 0%;
+    margin-bottom: 0;
+}
+
+.buy {
+    background-color: #1a1a1a;
+    margin-top: 7%; 
+}
+
+.buy h2 {
+    font-size:40px;
+    text-align: center;
+    color: #e9e3d3;
+}
+
+.merch img {
+    border-radius: 20%;
+    height: 15em;
+    width: 15em;
+    position: absolute;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+
+.merch {
+    margin-top: 1%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item p {
+    color: #e9e3d3;
+}
+
+.merch-container {
+    position: relative;
+    height: 15em;
+    width: 15em;
+    overflow: hidden;
+}
+
+.merch-container img.hover-image {
+    opacity: 0;
+}
+
+.merch-container:hover img.hover-image {
+    opacity: 1;
+}
+
+.merch-container img.default-image {
+    opacity: 1;
+}
+
+.merch-container:hover img.default-image {
+    opacity: 0;
+}
+
+
+.content {
+    margin-bottom: 3%;
+    background-color: #006674;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.popu {
+text-align: center;
+}
+
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+}
+
+.hero h2 {
+    font-size: 25px;
+}
+
+.hero img {
+    margin-top: 3%;
+    height: 350px;
+    width: 350px;
+
+    position: relative;
+    left: -100%;
+    animation: slide-in-hero 2s ease-out forwards;
+}
+
+@keyframes slide-in-hero {
+    0% {
+        left: -100%; 
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.snack {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.uitleg {
+    margin-top: 0;
+    padding-top: 0%;
+    text-align: center;
+}
+
+
+.episodes {
+    background-color: #78272d;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 5%;
+    margin-top: 1em;
+    padding-top: 5%;
+    max-width: 100%;
+    gap: 1em;
+   
+}
+
+.episodes img {
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 80%;
+    border-radius: 20%;
+}
+
+.episodes h2 {
+    color:#e9e3d3;
+    max-width: 100%;
+    text-align: center;
+}
+ 
+.ontstaan {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.selfie {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.selfie img {
+    max-width: 40%;
+}
+
+.fadein {
+    opacity: 0;
+    animation: fadein 2s forwards;
+}
+
+@keyframes fadein {
+    to {
+        opacity: 1;
+    }
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #90aa7a;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.wij {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-size: 19px;
+}
+
+.contact {
+    margin-left: 1%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.spotify {
+    display: flex;
+    justify-content: end;
+}
+
+.spotify img {
+    width: 7em;
+}
+
+.spotify a {
+    max-width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cf5d1e;
+}
